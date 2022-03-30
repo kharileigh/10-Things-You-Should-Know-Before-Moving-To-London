@@ -1,0 +1,27 @@
+{
+  "name": "10-things-you-should-know-before-moving-to-london",
+  "version": "1.0.0",
+  "description": "API server giving folks who have the intention of moving to London, with some very needed training wheels from those who did it before taking that jump",
+  "main": "OOPtest.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharileigh/10-Things-You-Should-Know-Before-Moving-To-London.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kharileigh/10-Things-You-Should-Know-Before-Moving-To-London/issues"
+  },
+  "homepage": "https://github.com/kharileigh/10-Things-You-Should-Know-Before-Moving-To-London#readme",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
