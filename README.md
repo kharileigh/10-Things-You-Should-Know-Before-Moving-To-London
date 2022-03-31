@@ -24,3 +24,5 @@ API server giving folks who have the intention of moving to London, with some ve
 # Random Search button did not fetch data successfully
 # Fighting with Bootstrap for in-line CSS on randomsearch.html page
 # Local device pathways causing difficulties with linking between the HTMLs as well as displaying images
+
+# REVIEW BRANCH MADE TO ADD COMMENTS
