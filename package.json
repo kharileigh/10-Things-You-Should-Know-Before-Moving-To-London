@@ -1,0 +1,31 @@
+{
+  "name": "10-things-you-should-know-before-moving-to-london",
+  "version": "1.0.0",
+  "description": "## INTRO API server giving folks who have the intention of moving to London, with some very needed training wheels from those who did it before taking that jump",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharileigh/10-Things-You-Should-Know-Before-Moving-To-London.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kharileigh/10-Things-You-Should-Know-Before-Moving-To-London/issues"
+  },
+  "homepage": "https://github.com/kharileigh/10-Things-You-Should-Know-Before-Moving-To-London#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}

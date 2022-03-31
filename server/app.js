@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const port = 8000;
+app.use(cors());
 
 //Page Information
 const londonTipsArray = [
@@ -103,6 +104,8 @@ const londonTipsArray = [
     }
 ];
 
+JSON.stringify(londonTipsArray);
+
 //Randomiser Function
 function getRandomTip() {
     const randIdx = Math.floor(Math.random() * londonTipsArray.length)
@@ -110,8 +113,6 @@ function getRandomTip() {
 }
 console.log(getRandomTip())
 
-
-app.use(cors());
 app.get('/', (req, res) => res.send('Hello World!'))
 
 // To do: Create a route for retrieving all quotes

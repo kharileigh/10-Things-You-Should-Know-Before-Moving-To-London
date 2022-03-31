@@ -32,6 +32,7 @@ const londonTipsArray = [
             'TFL intends to alter their generous pension scheme in a bid to save cash',
             'Morning rush hour? How about a stampede like the one seen in Lion King!',
             'This disruption impacts other forms of transportation which are busier as a result']
+    },
     {   id: 5,
         title: 'Bigger than you think!',
         intro: 'London is the capital and largest city of England and the United Kingdom',

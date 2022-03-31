@@ -36,21 +36,23 @@
         <a href="#" id="settings">Settings</a>
     </div>
 
-    <script>
+    <script defer>
         document.getElementById('mainSearch').addEventListener('click', mainSearch);
 
         function mainSearch() {
-            fetch('')
-            .then((res) => res.text())
-            .then((data) => {
-                document.getElementById('output').innerHTML = data;
-            })
-            .catch((err) =>console.log(err))
+            window.location.href = "./10Things.html";
         };
-        mainSearch();
+        
 
+//event listener
+const randomBtn = document.getElementById('random-search-btn');
 
+//random search function
+const randomSearch = () => {
+    window.location.href = "./randomsearch.html"
+}
 
+randomBtn.addEventListener('click', randomSearch);
     </script>
 </body>
 </html>
